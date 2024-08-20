@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: black;
+}
+/* Custom CSS */
+.hero-section {
+    height: 100vh;
+
+}
+#logo{
+color: #00abf0;
+
+}
+
+
+span{
+    color: #fff;
+}
+
+h2{
+        color: transparent;
+    -webkit-text-stroke: .3px #fff;
+    background-image: linear-gradient(red,#00abf0);
+    background-repeat: no-repeat;
+  background-clip: text;
+   background-position:-760px 0;
+   animation:animateText 6s linear infinite ;
+}
+@keyframes animateText{
+    0%,
+    95%,
+    100%{
+        background-position: -760px 0;
+    }
+    65%,
+    85%{
+background-position: 0 0;
+    }
+}
+.main-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+
+}
+.icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: .5s;
+}
+.icons a:hover {
+    background: #9E005D;
+    color: #fff;
+    border-color: #9E005D;
+    box-shadow: 0 0 10px #9E005D;
+}
+#about{
+    color: #fff;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
