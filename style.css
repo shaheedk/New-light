@@ -23,7 +23,7 @@ span{
 h2{
         color: transparent;
     -webkit-text-stroke: .3px #fff;
-    background-image: linear-gradient(red,#14f46d);
+    background-image: linear-gradient(red,#00abf0);
     background-repeat: no-repeat;
   background-clip: text;
    background-position:-760px 0;
