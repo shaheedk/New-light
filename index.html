@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Lights</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 0, 0);">
         <a class="navbar-brand" href="#" id="logo">New Lights</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,66 +25,82 @@
                     <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About Us</a>
                 </li>
-               
             </ul>
         </div>
     </nav>
-    
+
     <!-- Hero Section with Main Image -->
-    <section style="background-color: black;" class="hero-section text-center text-light d-flex align-items-center justify-content-center">
-        <div>
-            <div class="main-image"><img src="main-img.jpg" alt=""></div>
-            
-            <h1>Welcome to New Light Event Management</h1>
-            <h2> Light and Sounds & Event Managment </h2>      
+    <section class="hero-section text-center text-light d-flex align-items-center justify-content-center">
+        <div class="overlay">
+            <div class="main-image"><img src="main-img.jpg" alt="Event Management"></div>
+            <h1>Welcome to New Lights</h1>
+            <h2>Light and Sounds & Event Management</h2>
             <p>We make your events memorable</p>
-        <div class="icons"> <a href="https://www.instagram.com/new_light_light_sound/" >
-            <i class='bx bxl-instagram'></i>
-    
-</div>
-<a href="#services" class="btn btn-primary mt-4">Learn More</a>         
+            <div class="icons">
+                <a href="https://www.instagram.com/new_light_light_sound/">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+            <a href="#about" class="btn btn-primary mt-4">About us</a>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4"><span>Our Services</span></h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Wedding Planning</h5>
-                            <p class="card-text">We plan and manage your weddings with perfection.</p>
-                        </div>
+    <!-- About Us Section -->
+    <div class="due">
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">About Us</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>We are a leading event management company with years of experience in organizing various types of events. Our team is dedicated to providing exceptional service and creating unforgettable experiences for our clients.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Our expertise includes wedding planning, corporate events, birthday parties, and much more. We strive to exceed your expectations and make every event a success.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Corporate Events</h5>
-                            <p class="card-text">Professional event management for corporate events.</p>
+            </div>
+        </section>
+    
+        <!-- Services Section -->
+        <section id="services" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4"><span>Our Services</span></h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Wedding Planning</h5>
+                                <p class="card-text">We plan and manage your weddings with perfection.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Birthday Parties</h5>
-                            <p class="card-text">Making birthday celebrations extraordinary.</p>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Corporate Events</h5>
+                                <p class="card-text">Professional event management for corporate events.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Birthday Parties</h5>
+                                <p class="card-text">Making birthday celebrations extraordinary.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
-    <!-- Showcase Section -->
+    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="text-center mb-4"><span>Our Projects</span></h2>
@@ -94,7 +110,6 @@
                         <img src="project1.png" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Elegant Wedding</h5>
-                           
                             <p class="card-text">A beautifully planned and executed wedding event.</p>
                         </div>
                     </div>
@@ -121,54 +136,32 @@
         </div>
     </section>
 
-    <!-- About Us Section -->
-    <section id="about" class="py-5">
+    <!-- Footer -->
+    <footer class="footer bg-dark pt-5" style="color: #fff;">
         <div class="container">
-            <h2 class="text-center mb-4">About Us</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <p>We are a leading event management company with years of experience in organizing various types of events. Our team is dedicated to providing exceptional service and creating unforgettable experiences for our clients.</p>
+                <div class="col-md-3">
+                    <h2>Thank You For Visiting</h2>
                 </div>
-                <div class="col-md-6">
-                    <p>Our expertise includes wedding planning, corporate events, birthday parties, and much more. We strive to exceed your expectations and make every event a success.</p>
+                <div class="col-md-3">
+                    <h5>Contact us</h5>
+                    <ul class="list-unstyled">
+                        <li>Phone: +91 79028 62852</li>
+                        <li>Address: Near AVHSS Ponnani, Malappuram, India</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <p>2025 Event Management. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-3 text-end">
+                    <!-- Additional footer content -->
                 </div>
             </div>
         </div>
-    </section>
-
-   
-
-    
-     <!-- FOOTER START-->
-  <footer class="footer bg-dark pt-5 " style="color: #fff;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h2>Thank You For Visiting</h2>
-        </div>
-      
-        <div class="col-md-3">
-          <h5>Contact Me</h5>
-          <ul class="list-unstyled">
-           
-            <li>Phone: +91 79028 62852</li>
-            <li>Address:Near AVHSS Ponnani,Malappuram,India</li>
-          </ul>
-        </div>
-        
-      </div>
-     <hr>
-      <div class="row">
-        <div class="col-md-3">
-          <p>2024 Event Management. All Rights Reserved.</p>
-        </div>
-        <div class="col-md-3 text-end">
-       
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- FOOTER END -->
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
