@@ -17,7 +17,7 @@
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
     height: 100%; /* Fixed height to 100% for the overlay */
     width: 100%; /* Fixed width to 100% for the overlay */
-    border-radius: 20px;
+
     
 }
 
@@ -127,7 +127,7 @@ h2 {
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
     height: 100%; /* Fixed height to 100% for the overlay */
     width: 100%; /* Fixed width to 100% for the overlay */
-    border-radius: 20px; 
+
 }
 
 .card-img-top {
