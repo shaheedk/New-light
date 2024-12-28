@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; /* Added for better layout control */
+    overflow: none !important;
 }
 
 /* Custom CSS */
